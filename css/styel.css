@@ -1,0 +1,557 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: ;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: ;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+
+
+.header{
+	background: url('../images/banner.png') center top no-repeat;
+	background-size: cover;
+	padding: 25px 30px;
+	width: 100%;
+}
+.header .contact-header {
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.header .contact-header p{
+	margin: 0px;
+}
+.header .navigation-bar .bg-light {
+    background-color: transparent !important;
+    float: right;
+}
+.header .navigation-bar .bg-light .navbar{
+    padding: 0px;
+}
+.header .navigation-bar .navbar .nav-item {
+    padding: 15px 0px 0px 40px;
+}
+.header .navigation-bar .navbar .nav-item .nav-link {
+    font-size: 30px;
+    font-weight: 500;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+}
+.header .navigation-bar .navbar .nav-item .nav-link:hover, .navigation-bar .navbar .nav-item .nav-link:focus{
+	color: #9e0202;
+} 
+.header-banner{
+	width: 100%;
+}
+.header-banner .col-md-5{
+	padding: 97px 0px;
+}
+.header-banner .col-md-5 p{
+     font-size: 19px;
+    font-family: 'Bebas Neue', cursive;
+    border: 3px dashed #3d2514;
+    padding: 7px 90px;
+    width: 64%;
+    color: #3d2514;
+}
+.header-banner .col-md-5 h1{
+    font-size: 110px;
+    line-height: 120px;
+    color: #3d2514;
+    text-shadow: 4px 4px 0px #ffe9ba;
+    font-family: 'Alfa Slab One', cursive;
+}
+.header-banner .col-md-5 h3{
+    font-size: 66px;
+    line-height: 76px;
+    text-shadow: 4px 4px 0px #ffe9ba;
+    color: #3d2514;
+    font-family: 'Alfa Slab One', cursive;
+}
+.header-banner .col-md-7 .banner-img {
+    text-align: center;
+    padding: 0px;
+   
+}
+.header-banner .col-md-7 .banner-img .burger1{
+	width: 82%;
+}
+
+.burgers{
+
+position: relative;
+font-family: 'Bebas Neue', cursive;
+}
+.burgers h1{
+    
+    position: absolute;
+    font-size: 24px;
+    margin-top: 2%;
+    margin-left: 2%;
+    text-transform: uppercase;
+    color: #fff;
+
+    
+}
+.burgers span{
+    
+font-size: 36px;
+    
+line-height: 36px;
+}
+
+.burgers h2{
+    
+    position: absolute;
+    font-size: 24px; 
+    margin-top: 1%;
+    margin-left: 1%;
+    text-transform: uppercase;
+    color: #fff;
+}
+.burgers h3{
+    
+    position: absolute;
+     font-size: 24px;
+    margin-top: 1%;
+    margin-left: 1%;
+    text-transform: uppercase;
+   color: #fff;
+}
+.tasty-burger{
+    text-align: center;
+}
+.tasty-burger h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+    color: #3d2514;
+    background: #FFC442;
+}
+
+.tasty-burger h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #3d2514;
+}
+.tasty-burger p{
+    font-size: 16px;
+    line-height: 16px;
+    color: #3d2514;
+    margin-bottom: 45px;
+}
+.col-md-4 h2{
+    text-transform: uppercase;
+    margin-top: 35px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 26px;
+    color: #3d2514;
+}
+.col-md-4 p{
+    font-size: 14px;
+}
+
+
+
+
+.tasty-burger .order_btn{
+    
+    text-transform: uppercase;
+    background: red;
+    color: white;
+    border: 2px solid red;
+    padding: 10px 20px;
+    transition: .5s ;
+}
+.burger-text:hover .order_btn{
+    background: #fff;
+    color: red;
+}
+.burger2{
+    
+    width: 77%;
+    margin-left: 56px;
+}
+.always-tasty-burger{
+    text-align: center;
+}
+.always-tasty-burger .title .btn-primary {
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #ffc045;
+    background: #ffc045;
+    color: #3d2514;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.always-tasty-burger .title h1 {
+    font-size: 40px;
+    padding: 25px 0;
+    margin: 0px;
+    line-height: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    color: #3d2514;
+}
+.always-tasty-burger .title p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    width: 75%;
+    margin: auto;
+    color: #3d2514;
+}
+.tasty-burger {
+    padding: 70px 0px 0px;
+    text-align: center;
+}
+.burger-card{
+    border: none;
+    padding: 10px;
+    text-align: center;
+}
+.tasty-burger .burger-card img{
+    width: 60%;
+    margin: auto;
+
+}
+.card-body .card-title {
+    font-size: 34px;
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+    line-height: 44px;
+    margin: 0;
+}
+.card-body .card-text {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px 0;
+    color: #3d2514;
+}
+.tasty-burger .burger-card .card-body .btn-primary{
+    color: #fff;
+    background-color: red;
+    border-color: red;
+    border-radius: 0;
+    padding: 13px 30px;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 1s;
+}
+.tasty-burger .burger-card .card-body .btn-primary:hover ,.tasty-burger .burger-card .card-body .btn-primary:focus{
+     border: 1px solid red;
+    color: #fff;
+    background: #8f0000;
+}
+
+.discover{
+    position: relative;
+}
+.owl-items{
+    padding: 20px;
+}
+.owl-items h3 {
+    font-size: 32px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    color: #3d2514;
+    margin-top: 10px;
+}
+.owl-items h1 {
+    font-size: 45px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.owl-items p {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+}
+
+
+.discover .owl-theme .owl-dots .owl-dot.active span{
+    background: #ffc045;
+}
+.discover .owl-theme .owl-dots .owl-dot span {
+    width: 14px;
+    height: 14px;
+    background: #dcdcdc;
+}
+
+
+
+.discover .owl-carousel{
+    box-shadow: 0px 0px 20px 2px #888888;
+}
+
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    -webkit-tap-highlight-color: transparent;
+    text-align: left;
+    padding: 0 0 0 13px;
+}
+.owl-theme .owl-dots{
+    position: absolute;
+    top:340px;
+    left: 0;
+}
+.owl-theme .owl-nav {
+    -webkit-tap-highlight-color: transparent;
+    width: 8%;
+    text-align: left;
+    padding: 0 0 0 13px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #f8d48b;
+}
+/*discover css end*/
+
+
+
+.reserve .reserve-container{
+
+}
+.reserve-title {
+    text-align: center;
+}
+.reserve-title h4 {
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+}
+.reserve-title h1 {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 60px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+}
+form {
+    padding: 0 50px;
+}
+.form-group {
+    padding: 0 0 25px 0;
+}
+.form-group input {
+    padding: 14px 17px;
+    width: 100%;
+    color: #3d2514;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+    background: transparent;
+    border: 1px solid #3d2514;
+}
+.reserve .form-right .form-group .btn-primary {
+    width: 100%;
+    padding: 16px;
+    font-size: 22px;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 1px;
+    color: #fff;
+    background: red;
+    border: 1px solid red;
+    transition: 1s;
+}
+.reserve .form-right .form-group .btn-primary:hover,
+.reserve .form-right .form-group .btn-primary:focus{
+    color:red;
+    background: #fff;
+    border:1px solid red;
+}
+.form-col {
+    padding-top: 110px;
+}
+.reserve .reserve-container .right-side-image{
+    padding-top: 200px;
+}
+.left-side-image-col{
+    padding: 0;
+}
+.right-side-image-col{
+    padding: 0px 35px
+}
+/*Reserv css start*/
+
+
+
+
+
+.footer{
+    padding: 0 0 80px;
+}
+.footer-container{
+    background: url(../images/footer.png) center bottom no-repeat;
+    background-size: cover;
+}
+.footer-logo-col {
+    padding: 50px 30px;
+    width: 400px;
+}
+.footer-logo-col img{
+    width: 100%;
+}
+.footer-discrition-col p {
+    color: #fff;
+    width: 90%;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px 0 50px 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-address-col {
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 27px;
+    padding: 36px 0 0 0;
+}
+.main-footer {
+    padding: 0 30px;
+}
+.footer-address-col ul {
+    list-style: none;
+}
+.footer-address-col ul li i {
+    padding: 10px;
+}
+.copyright p {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.col-md-6.social-icons ul li a i {
+    text-align: center;
+    padding: 10px;
+    transition: 1s;
+    width: 44px;
+    color: black;
+    font-size: 22px;
+    background: #fff;
+    border-radius: 50px;
+    height: 43px;
+}
+.col-md-6.social-icons ul li a i:hover,
+.col-md-6.social-icons ul li a i:focus{
+    color: #fff;
+    background: transparent;
+    border: none;
+}
+.col-md-6.social-icons ul li {
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+.col-md-6.social-icons ul {
+    list-style: none;
+    display: inline-flex;
+}
+.col-md-6.social-icons {
+    text-align: right;
+}
+
+/*Media Quaries start here*/
+@media (min-width: 320px) and (max-width: 480px){
+
+.header {
+    padding: 25px 13px;
+    width: 107%;
+}
+.header .logo-div img{
+    padding: 0px 24px;
+}
+.header .contact-header p {
+    margin: 0px 14px;
+    padding-top: 9px;
+}
+.header-banner .col-md-5 p {
+    font-size: 22px;
+    padding: 3px 12px;
+    width: 90%;   
+}
+ .header-banner .col-md-5 h1 {
+    font-size: 60px;
+}
+.header-banner .col-md-5 h3 {
+    font-size: 50px;
+}
+.header-banner .col-md-7 .banner-img .burger1 {
+    width: 100%;
+}
+.header-banner .col-md-7 .banner-img {
+    padding: 0;
+    margin: -138px 0px -16px -95px;
+    width: 137%;
+}
+
+.reserve .reserve-container .right-side-image {
+    padding-top: 0px;
+    padding-left: 54px;
+}
+
+.footer-discrition-col p {
+    color: #fff;
+    width: 73%;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px 0 50px 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.copyright p {
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+
+.col-md-6.social-icons ul {
+    list-style: none;
+    display: inline-flex;
+    padding: 0px 0px;
+}
+
+
+
+
+
+.footer-container {
+    background: url(../images/footer.png) center bottom no-repeat;
+    background-size: cover;
+    width: 108%;
+}
+
+
+
+
+}
+@media (min-width: 481px) and (max-width: 767px){
+    
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    
+}
+/*Media Quaries End here*/
